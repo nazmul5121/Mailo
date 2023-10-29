@@ -1,0 +1,560 @@
+*{
+    font-family: Poppins;
+    color: #243143;
+    box-sizing: border-box;
+    font-style: normal;
+    line-height: normal;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.container_background{max-width: 100%; margin: 0 auto; height: 880px; background: #FBF2ED;}
+.container{max-width: 1362px; margin: 0 auto;}
+
+/*-------------------------------------------- common section ------------------------------------------*/
+.content_top_area p,
+.mailo_service_section_content p,
+.mailo_about_content_section_top p,
+.mailo_about_box p,
+.mailo_about_review p,
+.mailo_blog_content_box p{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.8;
+    margin: 0;
+}
+
+.mailo_service_section_content h6,
+.mailo_about_content_section_top h6,
+.mailo_our_project_content h6,
+.mailo_blog_section_upper h6,
+.mailo_customer_review_section_top h6,
+.customer_info h6{
+    font-size: 18px;
+    color: #B7764B;
+    font-weight: 500;
+    margin: 0;
+}
+.mailo_service_section_content h3,
+.mailo_about_content_section_top h3,
+.mailo_our_project_content h3,
+.mailo_blog_section_upper h3,
+.mailo_customer_review_section_top h3{
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+}
+.service_product_box h4,
+.project_demo_box h4,
+.mailo_blog_content_box h4,
+.customer_info h4{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+.service_product_box p,
+.project_demo_box p,
+.customer_review_content_box p,
+.footer_logo_part p,
+.footer_searching_part p{
+    font-size: 14px;
+    opacity: 0.8;
+    margin: 0;
+}
+
+
+
+
+
+/*--------------------------------------------- header section --------------------------------------------*/
+.mailo_header_section{
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 0;
+}
+.mailo_header_menu{
+    display: flex;
+    gap: 70px;
+    padding-top: 12px;
+}
+.mailo_header_logo img{width: 86px; height: 20px;}
+.mailo_main_menu ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.mailo_main_menu ul li{
+    padding: 0px 30px;
+    position: relative;
+}
+.mailo_main_menu ul li a{
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 14px;
+}
+i.fa-solid.fa-angle-down {
+    margin-left: 6px;
+}
+.mailo_dropdown_content{
+    background: #B7764B;
+    width: 150px;
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+.mailo_dropdown_content ul{
+    display: block;
+}
+.mailo_dropdown_content ul li{
+    padding: 20px;
+}
+.mailo_dropdown_content ul li a{
+    color: #FBF2ED;
+}
+.mailo_dropdawn:hover .mailo_dropdown_content{
+    display: block;
+}
+
+
+
+.mailo_login_option button{
+    border: none;
+    background: none;
+    text-transform: capitalize;
+    color: #B7764B;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.mailo_login_option .login{
+    background: #243143;
+    color: #FFF;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    margin-left: 30px;
+}
+/* --------------------------------------- hero section ----------------------------------*/
+.mailo_hero_area_bg{
+    max-width: 1863px;
+    margin: 0 auto;
+    background: url('./img/fade-img.svg'), url('./img/Vector5.svg');
+    background-repeat: no-repeat;
+    background-position: 90% 12%, 100% 61%;
+}
+.mailo_hero_section{
+    background: url('./img/fade-img2.svg'), url('./img/Group\ 1.svg'), url('./img/dawn-arrow.png'), url('./img/up-arrow.png');
+    background-repeat: no-repeat;
+    background-position: 62% 48%, 60% 21%, -2% 80%, 39% 67%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 65px;
+}
+.mailo_hero_section_content_area{
+    display: flex;
+    flex-direction: column;
+}
+.content_top_area> p{width: 725px;}
+.content_top_area a span{
+    font-size: 14px;
+    font-weight: 500;
+    background: #F2E0D5;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+.content_top_area h1{
+    background: url('./img/Group\ 23.svg');
+    background-repeat: no-repeat;
+    background-position: 95% 45%;
+    background-size: 470px 92px;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 80px;
+    text-transform: capitalize;
+    width: 642px;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.content_bottom_area{
+    display: flex;
+    gap: 20px;
+    padding-top: 40px;
+}
+.content_bottom_area button{
+    border: none;
+    background: #B7764B;
+    color: #FFF;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
+    width: 160px;
+    height: 54px;
+    border-radius: 50px;
+}
+.mailo_video{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.mailo_scroll{
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 110px;
+}
+.mailo_hero_section_image img{
+    position: relative;
+    top: -90px;
+    right: -93px;
+}
+/* ---------------------------- service section --------------------------------- */
+.mailo_service_section{
+    padding-top: 160px;
+    padding-bottom: 130px;
+}
+.mailo_service_section_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mailo_service_section_content> h6{padding-bottom: 10px;}
+.mailo_service_section_content> p{
+    text-align: center;
+    padding-top: 10px;
+}
+.mailo_service_section_box{
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+    gap: 30px;
+}
+.service_product_box img{width: 60px; height: 60px;}
+.service_product{
+    max-width: 318px;
+    height: 320px;
+    border: 1px dashed #B7764B;
+    border-radius: 15px;
+}
+.service_product_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 45px 35px 65px 35px;
+}
+.service_product_box>h4{padding: 24px 0 17px 0;}
+.service_product_box>p{text-align: center;}
+/* ---------------------------- about section --------------------------------- */
+.container_about_background{max-width: 100%; margin: 0 auto; background: #FFF9F5; padding: 110px 0;}
+.mailo_about_section{display: flex; gap: 60px;}
+.mailo_about_image_section img{
+    position: relative;
+    left: -50px;
+}
+.mailo_about_content_section_top{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 60px;
+}
+.mailo_about_content_section_middle{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+.mailo_about_box_group_1{display: flex; flex-direction: column; gap: 30px;}
+.mailo_about_box_group_2{display: flex; flex-direction: column; gap: 30px;}
+.mailo_about_content_box{
+    width: 318px;
+    height: 160px;
+    border: 1px dashed #B7764B;
+    border-radius: 15px;
+}
+.mailo_about_box{padding: 25px 40px 20px 20px;}
+.mailo_about_box:hover{background: #FBF2ED; border-radius: 15px; cursor: pointer;}
+.mailo_about_box h6{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.content_more{background: #B7764B; display: flex; align-items: center; justify-content: center;}
+.content_more span{
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 600;
+}
+.mailo_about_content_section_bottom{display: flex; gap: 130px;}
+.mailo_about_review{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.mailo_about_review span{
+    color: #B7764B;
+    font-size: 44px;
+    font-weight: 300;
+}
+/* ------------------------------------ our project ------------------------------- */
+.our_project_background{
+  max-width: 1600px;
+  margin: auto;
+  background: url('./img/project/Vector12\(1\).svg'), url('./img/project/Vector4\(1\).svg');
+  background-repeat: no-repeat;
+  background-position: 0% 65%, 92% 10%;
+}
+.mailo_our_project_sction{padding: 110px 0px;}
+.mailo_our_project_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.project_menu_list ul{
+    padding: 0;
+    display: flex;
+}
+.project_menu_list ul li{padding: 8px 25px; margin: 0px 15px; cursor: pointer;}
+.project_menu_list ul li a{
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 500;
+}
+.project_menu_list ul li:hover{background: #B7764B; border-radius: 17px;}
+.project_menu_list ul li:hover a{color: #FFF;}
+.mailo_our_project_content::after{
+    content: "";
+    width: 1362px;
+    border: 1px solid #E1E1E1;
+}
+
+.mailo_our_projetc_button::before{
+    content: "";
+    width: 1362px;
+    border: 1px solid #E1E1E1;
+    display: flex;
+    margin-bottom: 65px;
+}
+.mailo_our_project_content_demo{display: flex; justify-content: center; padding-top: 50px; gap: 30px;}
+.project_demo_box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.project_demo_box> p{width: 267px; text-align: center;}
+.mailo_our_projetc_button{text-align: center; padding-top: 50px;}
+.mailo_our_projetc_button span{
+    width: 202px; 
+    height: 60px;
+    background: #B7764B;
+    color: #FFF;
+    padding: 18px 40px;
+    border-radius: 30px;
+}
+
+/* ------------------------------ blog section --------------------------------- */
+.mailo_blog_section_background{
+    width: 100%; 
+    background: #EEEFF8;
+    padding: 110px 0px;
+}
+.mailo_blog_section_upper{display: flex; flex-direction: column; align-items: center; padding-bottom: 40px;}
+.mailo_blog_section_dawn{display: flex; justify-content: center; gap: 30px;}
+.mailo_blog_section_content_box{
+    width: 434px;
+    height: 680px;
+    background: #FFF;
+    border-radius: 10px;
+    position: relative;
+}
+.blog_date{
+    position: absolute;
+    top: 325px;
+    left: 170px;
+    background: #B7764B;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+.blog_date span{
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 24;
+    color: #FFF;
+}
+.mailo_blog_content_box{padding: 70px 47px 30px 47px;}
+.mailo_blog_content_box h4{text-align: center; padding-bottom: 15px;}
+.mailo_blog_content_box p{text-align: center;}
+.mailo_blog_content_box p::after{
+    content: "";
+    border: 1px solid #EEEFF8;
+    width: 340px;
+    display: flex;
+    margin: 30px 0px;
+}
+.mailo_blog_rating{display: flex; justify-content: center; gap: 20px;}
+.mailo_blog_rating_speech{display: flex; align-items: center; gap: 10px;}
+.mailo_blog_rating_heart{display: flex; align-items: center; gap: 10px;}
+
+/* ------------------------------ customer review ------------------------ */
+.mailo_customer_review_section{
+    padding: 110px 0px;
+    background: url('./img/customer/wave.svg');
+    background-repeat: no-repeat;
+    background-position: 90% 13%;
+}
+.mailo_customer_review_section_top{display: flex; flex-direction: column; align-items: center; padding-bottom: 70px;}
+.mailo_customer_review_section_dawn{display: flex; justify-content: center; gap: 30px;}
+.customer_review_box{
+    width: 434px;
+    height: 300px;
+    border: 1px dashed #B7764B;
+    border-radius: 15px;
+    position: relative;
+}
+.quata_image{
+    position: absolute;
+    top: -18px;
+    left: 140px;
+}
+.customer_review_content_box{
+    padding: 35px 40px 30px 40px;
+}
+.customer_section_part{display: flex; align-items: center; gap: 20px; padding-bottom: 25px;}
+/* .customer_review_content_box> p::before{
+    content: "";
+    border: 1px solid #B7764B;
+    width: 150px;
+    margin-right: 20px;
+} */
+
+.customer_location{display: flex; align-items: center; padding-top: 40px; gap: 10px;}
+.customer_location span{
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0.6;
+}
+.customer_review_box:hover{
+    background: #FBF2ED;
+    border: none;
+    transition: .3s;
+}
+/* -------------------------------- footer section ----------------------------- */
+.mailo_footer_area_top_part{
+    background: #B7764B;
+    border-radius: 15px;
+    height: 443px;
+    position: relative;
+}
+.footer_wave_image{
+    position: absolute;
+    top: 167px;
+    left: 56px;
+}
+#footer_wave{
+    position: absolute;
+    top: 121px;
+    right: 105px;
+}
+.mailo_footer_area_top_part_content{
+    height: 443px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mailo_footer_area_top_part_content h2{
+    font-size: 48px;
+    color: #FFF;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    padding: 80px 0 40px 0;
+}
+.input_form{display: flex; gap: 30px;}
+.input_form input:focus{outline: none;}
+.input_form input{
+    width: 450px;
+    height: 80px;
+    border-radius: 50px;
+    border: none;
+    font-size: 16px;
+    padding-left: 30px;
+}
+.input_form button{
+    background: #243143;
+    padding: 23px 65px;
+    font-size: 18px;
+    color: #FFF;
+    border-radius: 50px;
+    border: none;
+}
+.mailo_footer_area_main_part{
+    padding-top: 110px;
+}
+/* --------------------- footer second part -------------------- */
+.mailo_footer_section_background{
+    background: url('./img/Group25.svg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 1920px 850px;
+}
+.mailo_footer_area_main_part{display: flex; flex-direction: column;}
+.mailo_footer_area_main_top_part{display: flex;}
+.footer_logo_part p{width: 318px; padding-top: 45px;}
+.footer_logo_part{padding-right: 174px;}
+.footer_logo_part p{line-height: 25px;}
+
+.footer_menu_part h6,
+.footer_2nd_menu_part h6,
+.footer_searching_part h6{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+.footer_menu ul{padding: 35px 0 0 0; margin: 0; display: flex; flex-direction: column; gap: 17px;}
+.footer_menu ul li a{font-size: 14px; text-transform: capitalize; opacity: 0.8;}
+.footer_menu ul li:hover a{text-decoration: underline;}
+.footer_menu_part{padding-right: 150px;}
+.footer_2nd_menu_part{padding-right: 140px;}
+.footer_searching_part p{padding: 40px 0 20px 0;}
+.footer_form input{
+    width: 370px;
+    height: 60px;
+    border: none;
+    font-size: 14px;
+    border-radius: 30px;
+    padding-left: 30px;
+}
+.footer_form input:focus{outline: none;}
+.footer_form{ position: relative;}
+.footer_form img{position: absolute; top: 19px; right: 25px;}
+.mailo_footer_area_main_bottom_part{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding-top: 110px;
+    padding-bottom: 100px;
+}
+.footer_copyright_part span{font-size: 18px; opacity: 0.8;}
+.footer_socialicon ul{padding: 0; display: flex; gap: 20px;}
+.footer_socialicon ul li .fa-brands{
+    width: 20px;
+    height: 20px; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    color: #B7764B;
+}
+.footer_socialicon ul li:hover{background: #B7764B; cursor: pointer;transition: .5s;}
+.footer_socialicon ul li:hover .fa-brands{color: #FFF;}
+.footer_socialicon ul li{padding: 15px; background: #FFF; border-radius: 50%;}
