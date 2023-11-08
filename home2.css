@@ -1,0 +1,402 @@
+*{
+    font-family: Poppins;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    font-style: normal;
+    line-height: normal;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container_background{max-width: 100%; margin: 0 auto; height: 990px; background: #171718;}
+.container{max-width: 1362px; margin: 0 auto;}
+
+/* -------------------------------------------common section----------------------------------------- */
+.mailo_about_section_content_part_left h6,
+.mailo_our_project_content h6{
+    font-size: 18px;
+    font-weight: 500;
+    color: #B7764B;
+    margin: 0;
+}
+.mailo_about_section_content_part_left h2,
+.mailo_our_project_content h2{
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0;
+}
+.content_top_area p,
+.about_review_part p,
+.mailo_about_section_content_part_left p{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.8;
+    margin: 0;
+}
+
+
+
+
+
+/*--------------------------------------------- header section --------------------------------------------*/
+.mailo_header_section{
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 0;
+}
+.mailo_header_menu{
+    display: flex;
+    gap: 70px;
+    padding-top: 12px;
+}
+.mailo_header_logo img{width: 86px; height: 20px;}
+.mailo_main_menu ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.mailo_main_menu ul li{
+    padding: 0px 30px;
+    position: relative;
+}
+.mailo_main_menu ul li a{
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 14px;
+}
+i.fa-solid.fa-angle-down {
+    margin-left: 6px;
+}
+.mailo_dropdown_content{
+    background: #d5b9a9;
+    width: 150px;
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+.mailo_dropdown_content ul{
+    display: block;
+}
+.mailo_dropdown_content ul li{
+    padding: 15px;
+}
+.mailo_dropdown_content ul li a{
+    color: #243143;
+}
+.mailo_dropdawn:hover .mailo_dropdown_content{
+    display: block;
+}
+
+
+
+.mailo_login_option button{
+    border: none;
+    background: none;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.mailo_login_option .login{
+    background: #B7764B;
+    color: #FFF;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    margin-left: 30px;
+}
+/* --------------------------------------- hero section ----------------------------------*/
+.mailo_hero_area_bg{
+    max-width: 1863px;
+    margin: 0 auto;
+    background: url('./img/home2/wave1.svg'), url('./img/Vector5.svg');
+    background-repeat: no-repeat;
+    background-position: 90% 12%, 100% 61%;
+}
+.mailo_hero_section{
+    background: url('./img/home2/up-arrow.png'), url('./img/home2/wave2.svg');
+    background-repeat: no-repeat;
+    background-position: 39% 67%, 56% 5%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 65px;
+}
+.mailo_hero_section_content_area{
+    display: flex;
+    flex-direction: column;
+}
+.content_top_area> p{width: 725px;}
+.content_top_area a span{
+    font-size: 14px;
+    font-weight: 500;
+    background: #404043;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+.content_top_area h1{
+    background: url('./img/home2/Vector\ 13.svg');
+    background-repeat: no-repeat;
+    background-position: 95% 55%;
+    font-size: 74px;
+    font-weight: 700;
+    line-height: 80px;
+    text-transform: capitalize;
+    width: 594px;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.content_bottom_area{
+    display: flex;
+    gap: 20px;
+    padding-top: 60px;
+}
+.content_bottom_area button{
+    border: none;
+    background: #B7764B;
+    color: #FFF;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
+    width: 160px;
+    height: 54px;
+    border-radius: 50px;
+}
+.mailo_video{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.mailo_scroll{
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 110px;
+}
+.mailo_hero_section_image img{
+    position: relative;
+    top: -123px;
+    right: 0;
+}
+/* -----------------------------------about section------------------------------- */
+.container_about_background{
+    max-width: 100%;
+    margin: auto;
+    background: linear-gradient(
+                to top,
+                #171717 0%,
+                #171718 37%,
+                #1F1F20 37%,
+                #1F1F20 100%
+    );
+}
+.mailo_company_about_section{padding: 110px 0;}
+.mailo_about_section_content_part{
+    display: flex;
+    gap: 250px;
+}
+.mailo_about_section_content_part_left>p{width: 666px; padding: 30px 0 60px 0;}
+.mailo_about_section_content_part_right{display: flex; gap: 120px;}
+.about_review_part_1, .about_review_part_2{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.about_review_part span{
+    font-size: 44px;
+    color: #0074E5;
+    font-weight: 700;
+}
+
+
+/* ------------------------------------ our project ------------------------------- */
+.container_our_project_background{
+    max-width: 100%;
+    background: #171718;
+    margin: auto;
+}
+.project_demo_box_left, .project_demo_box_right{
+    display: flex;
+    gap: 30px;
+}
+.our_project_background{
+  max-width: 1600px;
+  margin: auto;
+  background: url('./img/project/Vector12\(1\).svg'), url('./img/project/Vector4\(1\).svg');
+  background-repeat: no-repeat;
+  background-position: 0% 65%, 92% 10%;
+}
+.mailo_our_project_sction{padding: 110px 0px;}
+.mailo_our_project_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.project_menu_list ul{
+    padding: 0;
+    display: flex;
+}
+.project_menu_list ul li{padding: 8px 25px; margin: 0px 15px; cursor: pointer;}
+.project_menu_list ul li a{
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 500;
+}
+.project_menu_list ul li:hover{background: #B7764B; border-radius: 17px;}
+.project_menu_list ul li:hover a{color: #FFF;}
+.mailo_our_project_content::after{
+    content: "";
+    width: 1362px;
+    border: 1px solid #272728;
+}
+
+.mailo_our_projetc_button::before{
+    content: "";
+    width: 1362px;
+    border: 1px solid #272728;
+    display: flex;
+    margin-bottom: 65px;
+}
+.mailo_our_project_content_demo{display: flex; justify-content: center; padding-top: 50px; gap: 30px;}
+.project_demo_box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.project_demo_box> p{width: 267px; text-align: center;}
+.mailo_our_projetc_button{text-align: center; padding-top: 50px;}
+.mailo_our_projetc_button span{
+    width: 202px; 
+    height: 60px;
+    background: #B7764B;
+    color: #FFF;
+    padding: 18px 40px;
+    border-radius: 30px;
+}
+
+
+/* -------------------------------- footer section ----------------------------- */
+.mailo_footer_area_top_part{
+    background: #0074E5;
+    border-radius: 15px;
+    height: 443px;
+    position: relative;
+}
+.footer_wave_image{
+    position: absolute;
+    top: 167px;
+    left: 56px;
+}
+#footer_wave{
+    position: absolute;
+    top: 121px;
+    right: 105px;
+}
+.mailo_footer_area_top_part_content{
+    height: 443px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mailo_footer_area_top_part_content h2{
+    font-size: 48px;
+    color: #FFF;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    padding: 80px 0 40px 0;
+}
+.input_form{display: flex; gap: 30px;}
+.input_form input:focus{outline: none;}
+.input_form input{
+    width: 450px;
+    height: 80px;
+    border-radius: 50px;
+    border: none;
+    font-size: 16px;
+    padding-left: 30px;
+    color: #171718;
+}
+.input_form button{
+    background: #171718;
+    padding: 23px 65px;
+    font-size: 18px;
+    color: #FFF;
+    border-radius: 50px;
+    border: none;
+}
+.mailo_footer_area_main_part{
+    padding-top: 110px;
+}
+
+/* --------------------- footer second part -------------------- */
+.mailo_footer_section_background{
+    background: #171718;
+    max-width: 100%;
+    margin: auto;
+}
+.mailo_footer_area_main_part{display: flex; flex-direction: column;}
+.mailo_footer_area_main_top_part{display: flex;}
+.footer_logo_part p{width: 318px; padding-top: 45px;}
+.footer_logo_part{padding-right: 174px;}
+.footer_logo_part p{line-height: 25px;}
+
+.footer_menu_part h6,
+.footer_2nd_menu_part h6,
+.footer_searching_part h6{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+.footer_menu ul{padding: 35px 0 0 0; margin: 0; display: flex; flex-direction: column; gap: 17px;}
+.footer_menu ul li a{font-size: 14px; text-transform: capitalize; opacity: 0.8;}
+.footer_menu ul li:hover a{text-decoration: underline;}
+.footer_menu_part{padding-right: 150px;}
+.footer_2nd_menu_part{padding-right: 140px;}
+.footer_searching_part p{padding: 40px 0 20px 0;}
+.footer_form input{
+    width: 370px;
+    height: 60px;
+    border: none;
+    font-size: 14px;
+    border-radius: 30px;
+    padding-left: 30px;
+    color: #171718;
+}
+.footer_form input:focus{outline: none;}
+.footer_form{ position: relative;}
+.footer_form img{position: absolute; top: 19px; right: 25px;}
+.mailo_footer_area_main_bottom_part{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding-top: 110px;
+    padding-bottom: 100px;
+}
+.footer_copyright_part span{font-size: 18px; opacity: 0.8;}
+.footer_socialicon ul{padding: 0; display: flex; gap: 20px;}
+.footer_socialicon ul li .fa-brands{
+    width: 20px;
+    height: 20px; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    color: #0074E5;
+}
+.mailo_footer_section_background::after{
+    content: "";
+    border: 1px solid #34343D;
+    display: flex;
+    position: relative;
+    bottom: 230px;
+}
+
+.footer_socialicon ul li:hover{background: #0074E5; cursor: pointer;transition: .5s;}
+.footer_socialicon ul li:hover .fa-brands{color: #FFF;}
+.footer_socialicon ul li{padding: 15px; background: #19202E; border-radius: 50%;}
